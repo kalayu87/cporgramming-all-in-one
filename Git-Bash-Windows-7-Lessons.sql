@@ -842,6 +842,39 @@ To https://github.com/kalayu87/cporgramming-all-in-one.git
 user@user-PC MINGW64 ~/gitBash-GUI-Tutorials/cporgramming-all-in-one (master)
 $
 
+=================================
+user@user-PC MINGW64 ~/gitBash-GUI-Tutorials/cporgramming-all-in-one (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        Git-Bash-Windows-7-Lessons.sql
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+user@user-PC MINGW64 ~/gitBash-GUI-Tutorials/cporgramming-all-in-one (master)
+$ git add .
+
+user@user-PC MINGW64 ~/gitBash-GUI-Tutorials/cporgramming-all-in-one (master)
+$ git commit -m "Added Git-Bash Windows Lessons"
+[master 6150153] Added Git-Bash Windows Lesoons
+ 1 file changed, 848 insertions(+)
+ create mode 100644 Git-Bash-Windows-7-Lessons.sql
+
+user@user-PC MINGW64 ~/gitBash-GUI-Tutorials/cporgramming-all-in-one (master)
+$ git push
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 3.75 KiB | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/kalayu87/cporgramming-all-in-one.git
+   447a435..6150153  master -> master
+
+user@user-PC MINGW64 ~/gitBash-GUI-Tutorials/cporgramming-all-in-one (master)
+$
 
 
 
