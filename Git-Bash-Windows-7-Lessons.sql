@@ -875,7 +875,112 @@ To https://github.com/kalayu87/cporgramming-all-in-one.git
 
 user@user-PC MINGW64 ~/gitBash-GUI-Tutorials/cporgramming-all-in-one (master)
 $
+========================================
+$ git push
+fatal: TaskCanceledException encountered.
+   A task was canceled.
+Username for 'https://github.com': zeray87
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/kalayu87/cporgramming-all-in-one.git/'
+
+user@user-PC MINGW64 ~/gitBash-GUI-Tutorials/cporgramming-all-in-one (master)
+$ git remote -v
+origin  https://github.com/kalayu87/cporgramming-all-in-one.git (fetch)
+origin  https://github.com/kalayu87/cporgramming-all-in-one.git (push)
+
+user@user-PC MINGW64 ~/gitBash-GUI-Tutorials/cporgramming-all-in-one (master)
+$ git push
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Username for 'https://github.com': zeray87
+remote: Permission to kalayu87/cporgramming-all-in-one.git denied to zeray87.
+fatal: unable to access 'https://github.com/kalayu87/cporgramming-all-in-one.git/': The requested URL returned error: 403
+
+user@user-PC MINGW64 ~/gitBash-GUI-Tutorials/cporgramming-all-in-one (master)
+$ git config --list
+core.symlinks=false
+core.autocrlf=true
+core.fscache=true
+color.diff=auto
+color.status=auto
+color.branch=auto
+color.interactive=true
+help.format=html
+rebase.autosquash=true
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.required=true
+filter.lfs.process=git-lfs filter-process
+credential.helper=manager
+user.email=tiggreen87@gmail.com
+user.user=zeray87
+gui.recentrepo=C:/Users/user/gitBash-GUI-Tutorials
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+remote.origin.url=https://github.com/kalayu87/cporgramming-all-in-one.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+branch.master.remote=origin
+branch.master.merge=refs/heads/master
+
+user@user-PC MINGW64 ~/gitBash-GUI-Tutorials/cporgramming-all-in-one (master)
+$
+
+
+user@user-PC MINGW64 ~/gitBash-GUI-Tutorials/cporgramming-all-in-one (master)
+$
+
+user@user-PC MINGW64 ~/gitBash-GUI-Tutorials/cporgramming-all-in-one (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working tree clean
+
+user@user-PC MINGW64 ~/gitBash-GUI-Tutorials/cporgramming-all-in-one (master)
+$ git push
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Username for 'https://github.com': zeray
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/kalayu87/cporgramming-all-in-one.git/'
+
+user@user-PC MINGW64 ~/gitBash-GUI-Tutorials/cporgramming-all-in-one (master)
+$
 
 
 
+user@user-PC MINGW64 ~/gitBash-GUI-Tutorials/cporgramming-all-in-one (master)
+$
+
+user@user-PC MINGW64 ~/gitBash-GUI-Tutorials/cporgramming-all-in-one (master)
+$
+user@user-PC MINGW64 ~/gitBash-GUI-Tutorials/cporgramming-all-in-one (master)
+$ git push
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Username for 'https://github.com': zeray87
+remote: Permission to kalayu87/cporgramming-all-in-one.git denied to zeray87.
+fatal: unable to access 'https://github.com/kalayu87/cporgramming-all-in-one.git/': The requested URL returned error: 403
+
+user@user-PC MINGW64 ~/gitBash-GUI-Tutorials/cporgramming-all-in-one (master)
+$
+============================
+--git push command & output
+
+user@user-PC MINGW64 ~/gitBash-GUI-Tutorials/cporgramming-all-in-one (master)
+$ git push
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 513 bytes | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/kalayu87/cporgramming-all-in-one.git
+   6150153..11b6f31  master -> master
+
+user@user-PC MINGW64 ~/gitBash-GUI-Tutorials/cporgramming-all-in-one (master)
+$
 
